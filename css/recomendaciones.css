@@ -1,0 +1,30 @@
+nav {
+    margin-top: -30px;
+}
+
+#recomendaciones {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+main ul li img {
+    width: 200px;
+}
+
+main ul {
+    list-style:circle ;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main ul li {
+    margin: 30px;
+}
+
+nav>ul>li:nth-of-type(3) a {
+    color: aliceblue;
+}

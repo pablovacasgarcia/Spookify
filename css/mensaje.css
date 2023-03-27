@@ -1,0 +1,13 @@
+footer {
+    position: absolute;
+    width: 99.5%;
+    bottom: 0;
+}
+
+nav:first-of-type {
+    margin-top: -120px;
+}
+
+main {
+    margin: 100px;
+}

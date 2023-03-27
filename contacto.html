@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="Blog de m&uacute;sica, los mayores &eacute;xitos del momento">
+    <title>Spookify</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+  <label for="burger" class="burger" id="menu">
+    
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  <input id="burger" type="checkbox">
+  <nav>
+    <ul>
+        <li><a href="index.html"><img src="img/FantasmaSpookifySinFondo.png">Inicio</a></li>
+        <li><a href="noticias.html">Noticias</a>
+          <ul>
+            <li><a href="noticias.html#ultimas">Últimas noticias</a></li>
+            <li><a href="noticias.html#destacadas">Noticias destacadas</a></li>
+            <li><a href="noticias.html#genero">Noticias por género</a>
+                <ul>
+                    <li><a href="noticias.html#reggaeton">Reggaeton</a></li>
+                    <li><a href="noticias.html#clasico">Clásica</a></li>
+                </ul>
+            </li>
+        </ul>
+        </li>
+        <li><a href="recomendaciones.html">Recomendaciones</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h3>Contáctanos</h3>
+    <form action="mensaje.html#respuesta" id="contacto">
+        <fieldset>
+            <legend><b>D&eacute;janos tu mensaje</b></legend>
+            <br>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" placeholder="David" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required>
+            <label for="nombre">Apellidos: </label>
+            <input type="text" name="apellidos" id="apellidos" placeholder="Bisbal Ferre" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{2,48}" required>
+            <br><br>
+            <label for="correo">Correo electrónico: </label>
+            <input type="email" id="correo" name="correo"placeholder="davidbisbal@correo.com" required>
+            <br><br>
+            <label for="t3">Deje un mensaje: </label>
+            <textarea id="t3" name="msg" maxlength="500" rows="5" cols="155" placeholder="Escribe aquí tu mensaje..." required></textarea>
+            <br>
+            <p style="text-align: center;">
+            <input type="image" src="img/Enviar.png" width="60" style="position: relative; top: 10px;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" style="background-color: crimson; color: aliceblue;font: 1em sans-serif; border-radius: 20px; font-size:small;" value="Empezar de nuevo">
+            </p>
+        </fieldset>
+        <br><br><br>
+    </form>
+  </main>
+  <footer  style="text-align: center; ">
+    <hr>
+    <h3>&copy;&Sscr;pookif&yscr;</h3>
+    <nav class="navegacion">
+      <a href="index.html"><u>Inicio</u></a>
+      <a href="noticias.html"><u>Noticias</u></a>
+      <a href="recomendaciones.html"><u>Recomendaciones</u></a>
+      <a href="nosotros.html#nosotros"><u>Nosotros</u></a>
+      <a href="contacto.html#contacto"><u>Contacto</u></a>
+    </nav>
+  </footer>
+</body>
+</html>

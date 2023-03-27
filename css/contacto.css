@@ -1,0 +1,38 @@
+nav>ul>li:nth-of-type(5) a {
+    color: aliceblue;
+}
+
+nav {
+    margin-top: -117px;
+}
+
+main {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+    width: 80%;
+}
+
+form {
+    width: 80%;
+}
+
+fieldset {
+    background-color: black;
+    opacity: 70%;
+}
+
+footer {
+    position: absolute;
+    width: 99.5%;
+    bottom: 0;
+}
+
+#menu {
+    margin-top: -80px;
+}
+
+textarea {
+    width: 80%;
+}
+

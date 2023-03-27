@@ -1,0 +1,12 @@
+section  {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+nav {
+    margin-top: -40px;
+}
+
+nav>ul>li:nth-of-type(2) a {
+    color: aliceblue;
+}
